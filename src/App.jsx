@@ -9,6 +9,7 @@ import Testmonials from "./Components/Testmonials/Testmonials";
 import Contact from "./Components/Contact/Contact";
 import Footer from "./Components/Footer/Footer";
 import Videoplayer from "./Components/Videoplayer/Videoplayer";
+import video from './assets/video.mp4'
 
 const App = () => {
 
@@ -29,7 +30,7 @@ const App = () => {
         <Contact/>
         <Footer/>
       </div>
-      <Videoplayer Play={play} setPlay={setPlay}/>
+      <Videoplayer video={video} Play={play} setPlay={setPlay}/>
     </div>
   );
 };
